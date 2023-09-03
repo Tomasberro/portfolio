@@ -1,0 +1,334 @@
+.meContainer{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.meContainerInfo{ 
+    width: 80%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.meInfo{ 
+    width: 50%;
+    height: 65%;
+    padding: 10px 0;
+}
+
+.meInfo h1{
+    height: 80px;
+    font-family: 'Anton', sans-serif;
+    font-size: 5em;
+}
+
+.meInfo h3{
+    font-size: 1.7rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color: rgb(170, 170, 170);
+}
+
+.meInfo p{
+    margin-top: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+}
+
+.meImage{ 
+    width: 50%;
+    height: 100%;
+    background-image: url('../../assets/dev.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 80%;
+}
+
+@media (min-width: 1200px) and (max-width: 1399px){
+
+    .meContainer{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .meContainerInfo{ 
+        width: 80%;
+        height: 90%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .meInfo{ 
+        width: 50%;
+        height: 75%;
+        padding: 10px 0;
+    }
+    
+    .meInfo h1{
+        height: 80px;
+        font-family: 'Anton', sans-serif;
+        font-size: 4.3em;
+    }
+    
+    .meInfo h3{
+        font-size: 1.4rem;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: bold;
+        color: rgb(170, 170, 170);
+    }
+    
+    .meInfo p{
+        margin-top: 20px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.3em;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+    .meContainer{
+        width: 100%;
+        height: 700px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .meContainerInfo{ 
+        width: 90%;
+        height: 90%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .meInfo{ 
+        width: 50%;
+        height: 75%;
+        padding: 10px 0;
+    }
+    
+    .meInfo h1{
+        height: 60px;
+        font-family: 'Anton', sans-serif;
+        font-size: 4em;
+    }
+    
+    .meInfo h3{
+        font-size: 1.3rem;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: bold;
+        color: rgb(170, 170, 170);
+    }
+    
+    .meInfo p{
+        margin-top: 20px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.15em;
+    }
+
+    .meImage{ 
+        width: 50%;
+        height: 100%;
+        background-image: url('../../assets/dev.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100%;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px){
+
+    .meContainer{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .meContainerInfo{ 
+        width: 90%;
+        height: 90%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .meInfo{ 
+        width: 50%;
+        height: 75%;
+        padding: 10px 0;
+    }
+    
+    .meInfo h1{
+        height: 52px;
+        font-family: 'Anton', sans-serif;
+        font-size: 3.5em;
+    }
+    
+    .meInfo h3{
+        font-size: 1.2rem;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: bold;
+        color: rgb(170, 170, 170);
+    }
+    
+    .meInfo p{
+        margin-top: 20px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.95rem;
+    }
+
+    .meImage{ 
+        width: 50%;
+        height: 100%;
+        background-image: url('../../assets/dev.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 110%;
+    }
+
+}
+
+
+@media (min-width: 601px) and (max-width: 767px){
+
+    .meContainer{
+        width: 100%;
+        height: 450px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .meContainerInfo{ 
+        width: 90%;
+        height: 95%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .meInfo{ 
+        width: 60%;
+        height: 75%;
+        padding: 10px 0;
+    }
+    
+    .meInfo h1{
+        height: 45px;
+        font-family: 'Anton', sans-serif;
+        font-size: 3em;
+    }
+    
+    .meInfo h3{
+        font-size: 1rem;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: bold;
+        color: rgb(170, 170, 170);
+    }
+    
+    .meInfo p{
+        margin-top: 20px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.7em;
+    }
+
+    .meImage{ 
+        width: 50%;
+        height: 90%;
+        background-image: url('../../assets/dev.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100%;
+    }
+
+}
+
+
+@media (max-width: 600px){
+
+    .meContainer{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: linear-gradient(35deg,rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.9)), url("../../assets/dev2.png");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100%; 
+    }
+    
+    .meContainerInfo{ 
+        width: 90%;
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .meInfo{ 
+        width: 90%;
+        height: 75%;
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .meInfo h1{
+        height: 45px;
+        font-family: 'Anton', sans-serif;
+        font-size: 2.7em;
+    }
+    
+    .meInfo h3{
+        font-size: 1.15rem;
+        font-family: 'Quicksand', sans-serif;
+        font-weight: bold;
+        color: rgb(170, 170, 170);
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .meInfo p{
+        margin-top: 20px;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 1.1rem;
+        line-height: 1.5;
+    }
+
+    .meImage{ 
+        display: none;
+    }
+
+
+} 

@@ -1,0 +1,385 @@
+.SliderContainer{
+    width: 50%;
+    height: 530px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+    /* background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 1)) */
+    /* background: rgb(193, 255, 157); */
+    background: #ffffff10;
+    backdrop-filter: blur(10px);
+    /* border: thin dotted #f00; */
+}
+
+.Slider{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.active{
+    background-color: transparent;
+}
+
+.Carousel{
+    width: 95%;
+    height: 95%;
+    top: 30px;
+}
+
+.Middle{
+    width: 50%;
+    height: 500px;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.MiddleInfo{
+    width: 90%;
+    height: 180px;
+}
+
+.MiddleInfo h1{
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 20px;
+}
+
+.MiddleInfo p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 19px;
+}
+
+.SliderButton{
+    padding: 5px 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    border: thin solid #fff;
+    color: #fff;
+    margin-top: 10px;
+    background-color: transparent;
+    transition: 0.5s all;
+}
+
+.SliderButton:hover{
+    color: #f00;
+    border-color: #f00;
+}
+
+.MiddleImage1, .MiddleImage2, .MiddleImage3{
+    width: 80%;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: #ccc;
+}
+
+.Carousel.active{
+    background-color: transparent;
+}
+
+.MiddleImage1{
+    background-image: url('../../assets/responsive-web-design.jpg');
+}
+
+.MiddleImage2{
+    background-image: url('../../assets/image-2.jpg');
+}
+
+.MiddleImage3{
+    background-image: url('../../assets/image-3.jpg');
+}
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1399px){
+
+    .SliderContainer{
+        width: 70%;
+        height: 530px;
+        margin: 0 auto;
+        margin-top: 30px;
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 10px;
+        background: #ffffff10;
+        backdrop-filter: blur(10px);
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+    .SliderContainer{
+        width: 80%;
+        height: 470px;
+        margin: 0 auto;
+        margin-top: -20px;
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 10px;
+        background: #ffffff10;
+        backdrop-filter: blur(10px);
+    }
+
+    .Slider{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .MiddleInfo h1{
+        font-family: 'Anton', sans-serif;
+        margin-bottom: 14px;
+    }
+
+    .MiddleImage1, .MiddleImage2, .MiddleImage3{
+        width: 80%;
+        height: 350px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+    .SliderContainer{
+        width: 90%;
+        height: 470px;
+        margin: 0 auto;
+        margin-top: -20px;
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 10px;
+        background: #ffffff10;
+        backdrop-filter: blur(10px);
+    }
+
+    .Slider{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .MiddleInfo h1{
+        font-family: 'Anton', sans-serif;
+        margin-bottom: 12px;
+    }
+
+    .MiddleImage1, .MiddleImage2, .MiddleImage3{
+        width: 80%;
+        height: 350px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+}
+
+@media (min-width: 601px) and (max-width: 767px){
+
+    .SliderContainer{
+        width: 95%;
+        height: 470px;
+        margin: 0 auto;
+        margin-top: -30px;
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 15px;
+        background: #ffffff10;
+        backdrop-filter: blur(10px);
+    }
+
+    .Slider{
+        width: 100%;
+        height: 380px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        /* border: thin dotted #f00; */
+    }
+
+    .Middle2{
+        width: 100%;
+        height: 550px;
+        color: #fff;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .MiddleInfo2{
+        width: 90%;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #00000090;
+        bottom: 20px;
+        border-radius: 10px;
+        padding: 50px 15px;
+    }
+
+    .MiddleInfo2 h1{
+        font-family: 'Anton', sans-serif;
+        font-size: 24px;
+        margin-bottom: 18px;
+        text-align: center;
+        text-shadow: 0 5px 5px #000;
+    }
+
+    .MiddleInfo2 p{
+        margin-bottom: 9px;
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 25px;
+        text-shadow: 0 5px 5px #000;
+    }
+
+    .MiddleImage1, .MiddleImage2, .MiddleImage3{
+        width: 100%;
+        height: 550px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .SliderButton{
+        text-shadow: 0 5px 5px #000;
+        box-shadow: 0 5px 5px #00000050;
+        padding: 2px 20px;
+        text-decoration: none;
+        border-radius: 30px;
+        border: thin solid #fff;
+        color: #fff;
+        margin-top: 1px;
+        background-color: transparent;
+        transition: 0.5s all;
+    }
+
+}
+
+@media (max-width: 600px){
+
+    .SliderContainer{
+        width: 95%;
+        height: 470px;
+        margin: 0 auto;
+        margin-top: 10px;
+        padding: 10px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 15px;
+        background: #ffffff10;
+        backdrop-filter: blur(10px);
+    }
+
+    .Slider{
+        width: 100%;
+        height: 380px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .Middle2{
+        width: 90%;
+        height: 180px;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }   
+
+    .MiddleInfo2{
+        width: 90%;
+        height: 230px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #00000090;
+        bottom: 20px;
+        border-radius: 10px 10px 0 0;
+        padding: 30px 15px;
+    }
+    
+    .MiddleInfo2 h1{
+        font-family: 'Anton', sans-serif;
+        font-size: 20px;
+        margin-bottom: 18px;
+        text-align: center;
+        text-shadow: 0 5px 5px #000;
+    }
+
+    .MiddleInfo2 p{
+        margin-bottom: 9px;
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 25px;
+        text-shadow: 0 5px 5px #000;
+    }
+    
+    .MiddleImage1, .MiddleImage2, .MiddleImage3{
+        width: 90%;
+        height: 550px;
+        border-radius: 0 0 10px 10px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .SliderButton{
+        text-shadow: 0 5px 5px #000;
+        box-shadow: 0 5px 5px #00000050;
+        padding: 2px 20px;
+        text-decoration: none;
+        border-radius: 30px;
+        border: thin solid #fff;
+        color: #fff;
+        margin-top: 1px;
+        background-color: transparent;
+        transition: 0.5s all;
+    }
+
+}

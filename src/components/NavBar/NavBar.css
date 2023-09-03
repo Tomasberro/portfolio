@@ -1,0 +1,244 @@
+@media (min-width: 992px) and (max-width: 1920px){
+
+    .navBarContainer{
+        width: 100%;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 100px;
+    }
+    
+    .navBarLogo{
+        width: 100%;
+        text-align: center;
+        padding: 20px 0 0 0;
+        display: flex;
+        gap: 50px;
+    }
+    .navBarName{
+        color: #fff;
+        padding-top: 30px;
+    }
+    
+    .navBarLogo img{
+       max-width: 160px;
+         max-height: 160px;
+    }
+    .tomas{
+        font-family: 'Anton', sans-serif;
+        font-size: 2.5rem;
+        }
+    .fullstack{
+        font-family: 'Anton', sans-serif;
+        font-size: 2.2rem;
+        }
+    .mobileIcon{
+        display: none;
+    }
+    
+    .navBarMenu{
+        width: 35%;
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .navBarMenu a{
+        width: 300px;
+        height: 30px;
+        text-decoration: none;
+        color: #fff;
+        transition: 0.5s all;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+        justify-content: space-around;
+    }
+    
+    .navBarMenu a:hover{
+        cursor: pointer;
+        border: thin solid rgba(255,255,255, 0.4);
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+    .navBarContainer{
+        width: 100%;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .navBarName{
+        color: #fff;
+        padding-top: 20px;
+    }
+    .navBarLogo img{
+        max-width: 150px;
+        max-height: 150px;
+        padding-left: 30px;
+    }
+    .navBarLogo {
+    width: 100%;
+    /* text-align: center; */
+    display: flex;
+    gap: 50px;
+}
+.tomas{
+    font-family: 'Anton', sans-serif;
+    }
+.fullstack{
+    font-family: 'Anton', sans-serif;
+    }
+    .mobileIcon{
+        display: none;
+    }
+    
+    .navBarMenu{
+        width: 70%;
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .navBarMenu a{
+        width: 300px;
+        height: 30px;
+        text-decoration: none;
+        color: #fff;
+        transition: 0.5s all;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+        justify-content: space-around;
+    }
+    
+    .navBarMenu a:hover{
+        cursor: pointer;
+        border: thin solid rgba(255,255,255, 0.4);
+    }
+    
+}
+
+@media (min-width: 601px) and (max-width: 767px){
+
+    .navBarContainer{
+        width: 100%;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .navBarName{
+        color: #fff;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    .tomas{
+        font-family: 'Anton', sans-serif;
+        font-size: 24px;}
+    .fullstack{
+        font-family: 'Anton', sans-serif;
+        font-size: 24px;}
+    .navBarLogo {
+        width: 100%;
+        /* text-align: center; */
+        display: flex;
+        gap: 50px;
+    }
+    .navBarLogo img{
+        max-width: 130px;
+        max-height: 130px;
+        padding-left: 10px;
+    }
+
+    .mobileIcon{
+        display: none;
+    }
+    
+    .navBarMenu{
+        width: 80%;
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .navBarMenu a{
+        width: 300px;
+        height: 30px;
+        text-decoration: none;
+        color: #fff;
+        transition: 0.5s all;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+        justify-content: space-around;
+    }
+    
+    .navBarMenu a:hover{
+        cursor: pointer;
+        border: thin solid rgba(255,255,255, 0.4);
+    }
+
+}
+
+@media (max-width: 600px){
+
+    .navBarContainer{
+        width: 100%;
+        height: 120px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: flex;
+        justify-content: space-around;
+    }
+
+    .navBarLogo {
+        width: 100%;
+        text-align: center;
+        display: flex;
+        gap: 50px;
+    }
+    .navBarName{
+        color: #fff;
+        font-family: 'Anton', sans-serif;
+    }
+    .tomas{
+        font-family: 'Anton', sans-serif;
+        font-size: 20px;}
+    .fullstack{
+        font-family: 'Anton', sans-serif;
+        font-size: 20px;}
+    .navBarLogo img{
+        max-width: 80px;
+        max-height: 80px;
+    }
+
+    .mobileIcon{
+        width: 100%;
+        height: 40px;
+        font-size: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: rgb(204, 11, 11);
+    }
+
+    .navBarMenu{
+        display: none;
+    }
+
+}
